@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Editor from '@monaco-editor/react';
-import { Button } from '@/components/ui/button';
-import { Card } from '@/components/ui/card';
+import { Button } from 'src/components/ui/button';
+import { Card } from 'src/components/ui/card';
 
 interface CodePlaygroundProps {
   initialCode?: string;
