@@ -7,7 +7,7 @@ export function HeroVideoDialogDemo() {
         className="dark:hidden block"
         animationStyle="from-center"
         videoSrc="https://www.youtube.com/embed/"
-        thumbnailSrc="https://i.ibb.co/MP5cq1z/Get-Started-With-Tippy.png"
+        thumbnailSrc="hhttps://i.ibb.co/rG4JRrKf/Get-Started-With-Tippy.png"
         thumbnailAlt="Hero Video"
       />
       {/* <HeroVideoDialog
