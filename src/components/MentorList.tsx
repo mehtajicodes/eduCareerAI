@@ -357,8 +357,8 @@ export default function MentorList({ careerPath }: { careerPath: string }) {
       const paymentResponse = await payman.ask(`Send ${mentor.rate} Tds to ${mentor.name}`);
       console.log("Payment Response:", paymentResponse);
 
-      const transactionHash = paymentResponse?.transactionHash || "unknown";
-      setTxHash(transactionHash);
+      // const transactionHash = paymentResponse?.transactionHash || "unknown";
+      // setTxHash(transactionHash);
 
       setMentors((prevMentors) =>
         prevMentors.map((m) =>
