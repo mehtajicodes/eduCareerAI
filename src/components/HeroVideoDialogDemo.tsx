@@ -6,7 +6,7 @@ export function HeroVideoDialogDemo() {
       <HeroVideoDialog
         className="dark:hidden block"
         animationStyle="from-center"
-        videoSrc="https://www.youtube.com/embed/"
+        videoSrc="https://www.youtube.com/embed/KgkJSDzvyog"
         thumbnailSrc="https://i.ibb.co/rG4JRrKf/Get-Started-With-Tippy.png"
         thumbnailAlt="Hero Video"
       />
