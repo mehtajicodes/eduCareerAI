@@ -356,7 +356,7 @@ const VideoConference: React.FC = () => {
         // Get screen stream
         const screenStream = await navigator.mediaDevices.getDisplayMedia({
           video: {
-            cursor: "always"
+            // cursor: "always"
           },
           audio: false
         });
